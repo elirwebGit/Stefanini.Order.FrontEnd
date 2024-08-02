@@ -12,7 +12,7 @@ Clone este repositório
 ```
 $ git clone <https://github.com/elirwebGit/Stefanini.Order.FrontEnd.git>
 ```
-Roda a aplicação BackEnd: Stefanini.Order.BackEnd no editor: Visual Studio: 2022 ou Visual Code  <br />
+Roda a aplicação BackEnd: Stefanini.Order.BackEnd na IDE: Visual Studio: 2022 ou Visual Code  <br />
 Em seguida navega na pasta raiz do projeto: "src/index.html" <br /> que acabou de baixar, clicar 2 no arquivo <br />
 
 
