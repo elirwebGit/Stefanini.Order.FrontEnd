@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Pedido</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CRUD Pedidos</h1>
+
+    <div id="order-form">
+      <input type="hidden" id="order-id" />
+      <label for="order-name">Name:</label>
+      <input type="text" id="order-name" />
+      <label for="order-email">Email:</label>
+      <input type="text" id="order-email" />
+      <br /><br />
+      <label for="order-produto">Id Produto:</label>
+      <input type="number" id="order-produto" />
+      <label for="order-nomeproduto">Nome Produto:</label>
+      <input type="text" id="order-nomeproduto" />
+      <label for="order-quantidade">Quantidade:</label>
+      <input type="number" id="order-quantidade" />
+      <button onclick="createOrUpdateOrder()">Salvar</button>
+    </div>
+
+    <div id="order-list">
+      <h2>Pedidos</h2>
+      <ul id="orders"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
